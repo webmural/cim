@@ -1,7 +1,7 @@
 :root {
-  background: hotpink;
-  background-image: conic-gradient(hotpink, deeppink, violet, hotpink);
-  color: black;
+  background: chartreuse;
+  background-image: radial-gradient(pink, plum, violet, orchid);
+  color: navy;
 }
 
 :any-link {
@@ -9,6 +9,6 @@
 }
 
 ::selection {
-  background: black;
-  color: hotpink;
+  background: indigo;
+  color: skyblue;
 }

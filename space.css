@@ -1,6 +1,6 @@
 html {
   font-family: fantasy;
-  font-size: max(3ch, 3vmax);
+  font-size: max(3ch, 3vmax + 3vmin);
 }
 
 body {
@@ -10,6 +10,26 @@ body {
   margin: 0;
   overflow-wrap: anywhere;
   min-height: 100vh;
+  border: thick groove orchid;
+}
+
+h1 {
+  font-size: 2.618em;
+    text-shadow:
+    3vw 3vh 1pt hotpink,
+    3vw 5vh 1pt #ec0,
+    3vw 3vh 1pt hotpink,
+    -3vw 3vh 1pt hotpink;
+}
+
+pre {
+  font-size: 1.618em;
+  text-shadow:
+    -3vw -21vh 1pt #ec0,
+    3vw 3vh 1pt hotpink,
+    3vw -5vh 1pt #ec0,
+    3vw -3vh 1pt hotpink,
+    -3vw 3vh 1pt hotpink;
 }
 
 body > * {
@@ -24,7 +44,6 @@ body > * {
 :any-link {
   text-decoration-style: double;
 }
-
 
 :focus {
   outline: thick dotted;
